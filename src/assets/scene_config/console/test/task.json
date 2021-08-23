@@ -1,5 +1,0 @@
-{
-  "sceneType": "console",
-  "generatingFunc": "this.addConsoleVariable('x', 42); this.addConsoleVariable('STR', 'test', true); this.addConsoleVariable('RANGE', Math.floor((Math.random() * 50)), true); this.addConsoleVariable('set', ['cat', 'dog'][Math.round(Math.random())], true); this.addConsoleVariable('result');",
-  "initialScript": "import console\n\n# Add your code here"
-}
