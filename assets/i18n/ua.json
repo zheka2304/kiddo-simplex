@@ -1,0 +1,388 @@
+{
+  "MODAL": {
+    "ACCEPT": "Прийняти",
+    "CLOSE": "Закрити",
+    "MOBILE_WARNING": "Якщо ти здійснюєш вхід з мобільного телефону і сторінка здається тобі незручною, знай - так воно і є! Будь ласка, скопіюй це <a href=\"{{currentUrl}}\" target=\"_blank\">посилання</a> і зайди з комп’ютера. Писати код з телефону вкрай незручно, тому максимум задоволення ти зможеш отримати, якщо відкриєш повну версію цієї сторінки.",
+    "CODE_RESET_WARNING": "При завантаженні початкового коду даного рівня ваш скрипт з редактора коду буде переписано.",
+    "TRY_AGAIN": "Спробувати ще раз"
+  },
+  "CODE-EDITOR": {
+    "SERVICE": {
+      "SCRIPT_COMPILED_SUCCESSFULLY": "Скрипт успішно скомпільований!",
+      "EXECUTING_SCRIPT": "Виконуємо скрипт...",
+      "SCRIPT_EXECUTION_COMPLETED": "Виконання скрипта завершено!",
+      "COULD_NOT_COMPILE_SCRIPT": "Помилка в скрипті",
+      "GAME_FAIL_ERROR": {
+        "SCRIPT_STOPPED": "Виконання скрипта було перервано"
+      }
+    },
+    "TOOLTIP": {
+      "LAUNCH": "Запустити",
+      "START_OVER": "Почати знову",
+      "RERENDER": "Перегенерувати рівень",
+      "RESET_CODE": "Завантажити початковий код рівня",
+      "PLAYBACK_SCENE": "Відтворити сцену",
+      "STOP_PLAYBACK": "Зупинити",
+      "TASK": "Завдання",
+      "HELP": "Допомога",
+      "MENU": "Меню"
+    },
+    "TABS": {
+      "TASK": "Завдання",
+      "HELP": "Допомога"
+    },
+    "BUTTON": {
+      "PLAY": "ЗАПУСТИТИ",
+      "STOP": "ЗУПИНИТИ",
+      "STOPPING": "ЗУПИНЯЄТЬСЯ...",
+      "REPLAY": "ЗАНОВО"
+    },
+    "OPTIONS": {
+      "SAVE": "Зберегти код",
+      "LOAD": "Завантажити код",
+      "IDE_POSITION": {
+        "CHOOSE": "Розташування IDE",
+        "LEFT": "Зліва",
+        "RIGHT": "Справа"
+      }
+    },
+    "MODAL": {
+      "SAVE_CODE": "Зберегти код",
+      "ENTER_SAVE_NAME": "Введіть ім'я...",
+      "WARNING": "Увага!!!",
+      "SAVE_NAME_EXISTS": "Ім'я збереження вже існує. Будь ласка, виберіть інше"
+    },
+    "SNACKBAR": {
+      "SUCCESSFULLY_SAVED": "Успішно збережено!"
+    }
+  },
+  "CODE-SAVER": {
+    "TITLE": "Менеджер збережень",
+    "WARNING": "Увага!!!",
+    "SOLUTIONS_DELETION_WARNING": "Наступні рішення будуть видалені:",
+    "SOLUTION_LOAD_WARNING": "Завантаження цього рішення перепише весь існуючий код в IDE",
+    "BUTTONS": {
+      "CLOSE": "Закрити",
+      "LOAD": "Завантажити",
+      "DELETE": "Вилучити",
+      "DELETE_SELECTED": "Видалити виділені"
+    }
+  },
+  "SCENE": {
+    "CONSOLE": {
+      "SERVICE": {
+        "SCENE_ESTABLISHED": "Сцена успішно налаштована!"
+      },
+      "WRITER": {
+        "GAME_FAIL_ERROR": {
+          "VARIABLE_READONLY": "Значення змінної {{varName}} не може бути переписано!"
+        }
+      },
+      "OUTPUT": "Вивід",
+      "TRY_AGAIN": "Спробувати ще раз",
+      "TASK_COMPLETE": "Чудово! Завдання виконано!",
+      "TASK_ACCOMPLISHED": "Чудово! Завдання виконано!",
+      "TASK_FAILED": "Завдання не виконано",
+      "FAIL_REASON": "Причина",
+      "FAIL_ROW_NUMBER": "Помилка в рядку",
+      "LEVEL_COMPLETE": "Рівень успішно пройдено!",
+      "TASK_DONE_WRONG": "Завдання виконано неправильно :(",
+      "LEVEL_NOT_COMPLETE_TASK_NOT_DONE": "Рівень не пройдено: завдання не було виконаноыы",
+      "SCRIPT_COULD_NOT_COMPILE": "Скрипт не скомпілювався :(",
+      "LEVEL_NOT_COMPLETE": "Скрипт не скомпілювався :(",
+      "ERROR_IN_SCRIPT": "Помилка в скрипті :(",
+      "RESULT": "Результат"
+    },
+    "RACCOON": {
+      "SERVICE": {
+        "GAME_FAIL_ERROR": {
+          "OFF_ROAD": "Єнот зійшов з дороги",
+          "OFF_MAP": "Єнот вийшов за межі ігрового поля",
+          "CAUGHT_BY_MONSTER": "Монстр впіймав єнота",
+          "NO_GATES_KEY": "Немає відповідного ключа"
+        },
+        "SCENE_ESTABLISHED": "Сцена успішно налаштована!"
+      },
+      "RESULT_MESSAGE": {
+        "TASK_ACCOMPLISHED": "Чудово! Завдання виконано!",
+        "LEVEL_COMPLETE": "Рівень успішно пройдено!",
+        "FLAG_NOT_CAPTURED": "Ех... Єнот не дійшов до прапорця",
+        "FLAG_CAPTURED_BUT_NOT_ALL_COOKIES_COLLECTED": "Єнот дістався прапорця! Але на полі ще залишилось печиво :(",
+        "NOT_ALL_COOKIES_COLLECTED": "Не зібране все печиво",
+        "FLAG_CAPTURED_BUT_ONLY_N_COOKIES_COLLECTED": "Рівень не пройдено: Єнот дійшов до фінішу, але тільки {{cookies}} штук печива було зібрано",
+        "LEVEL_INCOMPLETE_FLAG_NOT_CAPTURED": "Рівень не пройдено: єнот не дійшов до фінішу",
+        "FINAL_POINT_NOT_ACHIEVED": "Єнот не дійшов до фінішу"
+      },
+      "RESULT": "Результат",
+      "TASK_ACCOMPLISHED": "Завдання виконано",
+      "TASK_FAILED": "Завдання не виконано",
+      "FAIL_REASON": "Причина",
+      "FAIL_ROW_NUMBER": "Помилка в рядку",
+      "COOKIES_PICKED": "Печиво зібране",
+      "CELLS_PASSED": "Пройдено клітинок",
+      "TRY_AGAIN": "Спробувати знову",
+      "LEVEL_NOT_COMPLETE": "Рівень не пройдено",
+      "ERROR_IN_SCRIPT": "Помилка в скрипті"
+    },
+    "PANDEMIC": {
+      "SERVICE": {
+        "GAME_FAIL_ERROR": {
+          "OFF_ROAD": "Гравець зійшов з дороги",
+          "OFF_MAP": "Гравець вийшов за межі ігрового поля",
+          "CAUGHT_BY_VIRUS": "Гравець підхопив вірус",
+          "TOO_CLOSE_TO_PERSON": "Гравець не дотримав дистанції",
+          "WITHOUT_MASK": "Гравець вийшов на вулицю без маски",
+          "ENTERED_MALL": "Гравець вибрав торговий центр замість невеликого магазину"
+        },
+        "SCENE_ESTABLISHED": "Сцена успішно налаштована!"
+      },
+      "RESULT_MESSAGE": {
+        "TASK_ACCOMPLISHED": "Чудово! Завдання виконано!",
+        "LEVEL_COMPLETE": "Рівень успішно пройдено!",
+        "HOME_NOT_CAPTURED": "Ех... Гравець не дійшов до дому",
+        "HOME_CAPTURED_BUT_NOT_ALL_OBJECTS_COLLECTED": "Гравець дійшов до фінішу! Але на полі ще залишились предмети :(",
+        "NOT_ALL_OBJECTS_COLLECTED": "Не зібрані всі предмети",
+        "HOME_CAPTURED_BUT_ONLY_N_OBJECTS_COLLECTED": "Рівень не пройдено: гравець дійшов до фінішу, але тільки {{objects}} предметів було зібрано",
+        "LEVEL_INCOMPLETE_FINISH_NOT_CAPTURED": "Рівень не пройдено: гравець не дійшов до фінішу",
+        "FINAL_POINT_NOT_ACHIEVED": "Гравець не дійшов до фінішу",
+        "TERMINAL_MASK_NOT_PUT_ON": "Рівень не пройдено: Гравець дійшов до фінішу, але не одягнув маску",
+        "TERMINAL_HANDS_NOT_WASHED": "Рівень не пройдено: Гравець дійшов до фінішу, але не помив руки",
+        "MASK_NOT_PUT_ON": "Гравець не одягнув маску!",
+        "HANDS_NOT_WASHED": "Гравець дійшов до фінішу! Але не помив руки",
+        "SHORT_MASK_NOT_PUT_ON": "Маска не одягнена",
+        "SHORT_HANDS_NOT_WASHED": "Руки не помиті",
+        "TERMINAL_DID_NOT_PICKED_UP_PRODUCTS": "Рівень не пройдено: Гравець дійшов до фінішу, але не купив продукти",
+        "DID_NOT_PICKED_UP_PRODUCTS": "Гравець дійшов до фінішу! Але продукти не купив",
+        "SHORT_DID_NOT_PICKED_UP_PRODUCTS": "Продукти не куплені",
+        "GOT_OFF_ROAD": "Гравець зійшов з дороги!",
+        "WAS_CAUGHT_BY_VIRUS": "Гравець підхопив вірус!",
+        "WAS_TOO_CLOSE_TO_PERSON": "Гравець підійшов занадто близько до людини!",
+        "HAS_ENTERED_MALL": "Гравець зайшов в торговий центр замість невеликого магазину!"
+      },
+      "RESULT": "Результат",
+      "TASK_ACCOMPLISHED": "Завдання виконано",
+      "TASK_FAILED": "Завдання не виконано",
+      "FAIL_REASON": "Причина",
+      "FAIL_ROW_NUMBER": "Помилка в рядку",
+      "MASKS_PICKED": "Зібрано масок",
+      "SANITIZERS_PICKED": "Зібрано санітайзерів",
+      "CELLS_PASSED": "Пройдено клітинок",
+      "TRY_AGAIN": "Спробувати знову",
+      "PUT_MASK_ON": "Одягнув маску",
+      "WASHED_HANDS": "Помив руки",
+      "VISITED_SHOP": "Купив продукти",
+      "MESSAGE_YES": "Так",
+      "MESSAGE_NO": "Ні",
+      "LEVEL_NOT_COMPLETE": "Рівень не пройдено",
+      "ERROR_IN_SCRIPT": "Помилка в скрипті"
+    }
+  },
+  "MARKDOWN": {
+    "HELP_RACCOON": "{{ assetsPath }}/files/helpRaccoonUa.md?timestamp={{ timestamp }}",
+    "HELP_CONSOLE": "{{ assetsPath }}/files/helpConsoleUa.md?timestamp={{ timestamp }}",
+    "HELP_PANDEMIC": "{{ assetsPath }}/files/helpPandemicUa.md?timestamp={{ timestamp }}"
+  },
+  "SCENE-COMPONENT": {
+    "LEVEL_COMPLETE": "Рівень успішно пройдено!",
+    "LEVEL_NOT_COMPLETE": "Рівень не пройдено",
+    "RACCOON": {
+      "FAIL_REASON": {
+        "FINISH_NOT_REACHED": "Єнот не дійшов до прапорця",
+        "NOT_ALL_COMPULSORY_OBJECTS_COLLECTED":"Не зібране все печиво",
+        "CAUGHT_BY_MONSTER":"Монстр впіймав єнота",
+        "OFF_MAP":"Єнот вийшов за межі ігрового поля",
+        "OFF_ROAD":"Єнот зійшов з дороги",
+        "SCRIPT_STOPPED": "Виконання скрипта було перервано",
+        "NO_GATES_KEY": "Виконання скрипта було перервано",
+        "COULD_NOT_COMPILE_SCRIPT": "Помилка в скрипті",
+        "INVALID_ARGUMENT":"Неправильний аргумент",
+        "ARGUMENT_OUT_OF_RANGE":"Аргумент поза діапазоном",
+        "EXTRA_ARGUMENT":"Expected zero arguments",
+        "INVENTORY_NO_MINE": "Міни немає в інвентарі",
+        "INVENTORY_NO_TURRET": "Туррелі немає в інвентарі"
+      }
+    },
+    "CONSOLE": {
+      "FAIL_REASON": {
+        "SCRIPT_STOPPED": "Виконання скрипта було перервано",
+        "FAIL_ROW_NUMBER": "Помилка в рядку",
+        "COULD_NOT_COMPILE_SCRIPT": "Помилка в скрипті",
+        "TASK_DONE_WRONG": "Завдання виконано неправильно",
+        "INVALID_ARGUMENT":"Неправильний аргумент",
+        "ARGUMENT_OUT_OF_RANGE":"Аргумент поза діапазоном",
+        "UNKNOWN_VARIABLE":"Невідома змінна"
+      }
+    },
+    "PANDEMIC": {
+      "FAIL_REASON": {
+        "HOME_NOT_REACHED": "Гравець не дійшов до дому",
+        "NOT_ALL_COMPULSORY_OBJECTS_COLLECTED": "Не всі маски і санітайзері зібрані",
+        "COULD_NOT_COMPILE_SCRIPT": "Помилка в скрипті",
+        "OFF_ROAD": "Гравець зійшов з дороги",
+        "OFF_MAP": "Гравець вийшов за межі ігрового поля",
+        "MASK_IS_NOT_ON": "Маска не одягнена",
+        "ENTERED_MALL": "Гравець вибрав торговий центр замість невеликого магазину",
+        "HANDS_NOT_WASHED": "Руки не помиті",
+        "PRODUCTS_NOT_PICKED": "Продукти не куплені",
+        "SCRIPT_STOPPED": "Виконання скрипта було перервано",
+        "CAUGHT_BY_VIRUS": "Гравець підхопив вірус",
+        "TOO_CLOSE_TO_PERSON": "Гравець не дотримав дистанції",
+        "INVALID_ARGUMENT":"Неправильний аргумент",
+        "ARGUMENT_OUT_OF_RANGE":"Аргумент поза діапазоном",
+        "EXTRA_ARGUMENT":"Очікувані нульові аргументи"
+      }
+  },
+    "TILE-STATISTICS": {
+      "RACCOON": {
+        "FAIL_REASON": "Причина",
+        "FAIL_ROW_NUMBER": "Помилка в рядку",
+        "CELLS_PASSED": "Пройдено клітинок",
+        "COMPULSORY_OBJECTS_PICKED": "Печиво зібране",
+        "FINISH_NOT_REACHED": "Єнот не дійшов до прапорця",
+        "NOT_ALL_COMPULSORY_OBJECTS_COLLECTED": "Не зібране все печиво",
+        "COULD_NOT_COMPILE_SCRIPT": "Помилка в скрипті",
+        "OFF_ROAD": "Єнот зійшов з дороги",
+        "OFF_MAP": "Єнот вийшов за межі ігрового поля",
+        "SCRIPT_STOPPED": "Виконання скрипта було перервано",
+        "CAUGHT_BY_MONSTER": "Монстр впіймав єнота",
+        "NO_GATES_KEY": "Немає відповідного ключа",
+        "INVALID_ARGUMENT":"Неправильний аргумент",
+        "ARGUMENT_OUT_OF_RANGE":"Аргумент поза діапазоном",
+        "EXTRA_ARGUMENT":"Очікувані нульові аргументи",
+        "INVENTORY_NO_MINE": "Міни немає в інвентарі",
+        "INVENTORY_NO_TURRET": "Туррелі немає в інвентарі"
+      },
+      "PANDEMIC": {
+        "FAIL_REASON": "Причина",
+        "FAIL_ROW_NUMBER": "Помилка в рядку",
+        "CELLS_PASSED": "Пройдено клітинок",
+        "COMPULSORY_OBJECTS_PICKED": "Зібрано масок і санітайзерів",
+        "HOME_NOT_REACHED": "Гравець не дійшов до дому",
+        "NOT_ALL_COMPULSORY_OBJECTS_COLLECTED": "Не всі маски і санітайзері зібрані",
+        "COULD_NOT_COMPILE_SCRIPT": "Помилка в скрипті",
+        "OFF_ROAD": "Гравець зійшов з дороги",
+        "OFF_MAP": "Гравець вийшов за межі ігрового поля",
+        "MASK_IS_NOT_ON": "Маска не одягнена",
+		    "ENTERED_MALL": "Гравець вибрав торговий центр замість невеликого магазину",
+        "HANDS_NOT_WASHED": "Руки не помиті",
+        "PRODUCTS_NOT_PICKED": "Продукти не куплені",
+        "HANDS_WASHED": "Помив руки",
+        "MASK_IS_ON": "Одягнув маску",
+        "MESSAGE_YES": "Так",
+        "MESSAGE_NO": "Ні",
+        "SCRIPT_STOPPED": "Виконання скрипта було перервано",
+        "MASKS_PICKED": "Зібрано масок",
+        "SANITIZERS_PICKED": "Зібрано санітайзерів",
+        "PRODUCTS_PICKED": "Купив продукти",
+        "CAUGHT_BY_VIRUS": "Гравець підхопив вірус",
+        "TOO_CLOSE_TO_PERSON": "Гравець не дотримав дистанції",
+        "INVALID_ARGUMENT":"Неправильний аргумент",
+        "ARGUMENT_OUT_OF_RANGE":"Аргумент поза діапазоном",
+        "EXTRA_ARGUMENT":"Очікувані нульові аргументи"
+      }
+    },
+    "CONSOLE-STATISTICS": {
+      "FAIL_REASON": "Причина",
+      "FAIL_ROW_NUMBER": "Помилка в рядку",
+      "COULD_NOT_COMPILE_SCRIPT": "Помилка в скрипті",
+      "TASK_DONE_WRONG": "Завдання виконано неправильно",
+      "INVALID_ARGUMENT":"Неправильний аргумент",
+      "ARGUMENT_OUT_OF_RANGE":"Аргумент поза діапазоном",
+      "UNKNOWN_VARIABLE":"Невідома змінна"
+    }
+  },
+  "TERMINAL": {
+    "TOOLTIP": {
+      "CLEAR": "Очистити",
+      "COLLAPSE": "Згорнути",
+      "OPEN": "Розгорнути"
+    }
+  },
+  "INITIALIZATION": {
+    "JS_ERROR": "Є помилка в ініціалізаційному JavaScript коді",
+    "CONFIG_ERROR": "Помилка в конфігу",
+    "RACCOON": {
+      "NO_PLAYER": "В конфігу сцени відсутній Гравець ",
+      "NO_GAMEFIELD": "В конфігу сцени відсутнє ігрове поле",
+      "GAMEOBJECTS_COORDS": "Один чи більше об’єктів знаходиться не на дорозі",
+      "GAMEOBJECTS_OUT_FIELD": "Один чи більше об’єктів має неправильну позицію (поза полем)",
+      "PLAYER_COORDS": "Гравець знаходиться не на дорозі",
+      "PLAYER_OUT_FIELD": "Гравець має неправильну позицію (поза полем)",
+      "GAMEOBJECTS_SAME_COORDS": "Два або більше ігрових об'єктів мають однакові координати",
+      "GAMEOBJECT_WRONG_COLOR": "В об'єкта задано неправильний колір",
+      "GAMEOBJECT_NO_COLOR": "В об'єкта не задано колір",
+      "NO_CHECKING_LOGIC": "Не задано функцію перевірки рівня",
+      "GAMEFIELD_ROW_LENGTH": " Рядки тайлів ігрового поля мають різну довжину"
+    },
+    "PANDEMIC": {
+      "NO_PLAYER": "В конфігу сцени відсутній Гравець ",
+      "NO_GAMEFIELD": "В конфігу сцени відсутнє ігрове поле",
+      "GAMEOBJECTS_COORDS": "Один чи більше об’єктів знаходиться не на дорозі",
+      "GAMEOBJECTS_OUT_FIELD": "Один чи більше об’єктів має неправильну позицію (поза полем)",
+      "PLAYER_COORDS": "Гравець знаходиться не на дорозі",
+      "PLAYER_OUT_FIELD": "Гравець має неправильну позицію (поза полем)",
+      "GAMEOBJECTS_SAME_COORDS": "Два або більше ігрових об'єктів мають однакові координати",
+      "GAMEOBJECT_WRONG_COLOR": "В об'єкта задано неправильний колір",
+      "GAMEOBJECT_NO_COLOR": "В об'єкта не задано колір",
+      "NO_CHECKING_LOGIC": "Не задано функцію перевірки рівня",
+      "GAMEFIELD_ROW_LENGTH": " Рядки тайлів ігрового поля мають різну довжину"
+    },
+    "CONSOLE": {
+      "OUT_OF_RANGE": "Числові змінні повинні мати значення від –1000000 до 1000000",
+      "MAX_VARIABLES": "В конфігу має бути не більше 4 змінних",
+      "NO_CHECKING_LOGIC": "Не задано функцію перевірки рівня"
+    }
+  },
+  "TASK_EDITOR": {
+    "NEXT": "Далі",
+    "LABEL": {
+      "SCENE_TYPE": "Тип сцени",
+      "TASK_DESCRIPTION": "Опис сцени",
+      "INITIAL_CODE": "Ініціалізаційний код",
+      "TEST_LAUNCH": "Перевірка результату",
+      "SAVE": "Збереження коду"
+    },
+    "HELP": {
+      "HELP": "Допомога",
+      "INITIAL_RACCOON_LINK": "Для конфігурації сцени використовується декілька методів. Детальний опис кожного з них можна знайти за цим <a href='/scene-config-help#raccoon' target='_blank'>посиланням</a>.",
+      "INITIAL_CONSOLE_LINK": "Для конфігурації сцени використовується декілька методів. Детальний опис кожного з них можна знайти за цим <a href='/scene-config-help#console' target='_blank'>посиланням</a>.",
+      "INITIAL_PANDEMIC_LINK": "Для конфігурації сцени використовується декілька методів. Детальний опис кожного з них можна знайти за цим <a href='/scene-config-help#pandemic_hero' target='_blank'>посиланням</a>.",
+      "SCENE_TYPE": "Вибери тип сцени (рівня). Перший тип — консоль, тобто емулятор комп'ютерного терміналу. Початкові умови на такому рівні складаються з набору змінних з початковими значеннями. Той, хто розв’язуватиме задачу, матиме провести зі змінними маніпуляції та вивести на екран потрібне значення. Другий тип сцени — графічний, що складається з квадратних елементів (тайлів). Тайлові рівні — це, наприклад, рівні про Єнота. Тут той, хто розв’язуватиме задачу, матиме написати код на Python, щоб провести героя побудованим тобою лабіринтом.",
+      "SCENE_DESCRIPTION": "Напиши опис сцени. Він відображатиметься перед початком гри. Це може опис того, що потрібно зробити та, можливо, передісторія цієї сценки. Текст виводиться у форматі .md (markdown), тому в разі необхідності його можна стилізувати за допомогою markdown-синтаксису.",
+      "TEST_LAUNCH": "Перед тобою повноцінний плеєр з новою сценкою! Можеш запустити її, подивитись, як вона працює, написати рішення за допомогою мови програмування Python і перевірити, наскільки складно (та чи взагалі можливо :)) її пройти.",
+      "SAVE": "Щоб не втратити результат своєї роботи на всіх попередніх етапах, збережи отриманий код сценки! Це можна зробити за допомогою експорту файлу в Yaml-форматі чи звичайним копіюванням коду.",
+      "INTRODUCTION": "Ти маєш чудову можливість стати автором задач Kiddo! Для цього потрібно трохи знати JavaScript для конфігурування сцени. За допомогою наступних п'яти кроків ти зможеш створити свою сцену, яку можна буде використовувати для гри або поділитися з редакторами Kiddo, щоб після перевірки її виклали на сайт.",
+      "DO_NOT_SHOW": "Не показувати це повідомлення при відкритті редактора задач",
+      "STEP": "Крок"
+      
+    },
+    "SCENE_TYPE": {
+      "TITLE": "Виберіть тип сцени",
+      "MESSAGE": "Ваш вибір важливий для подальших кроків",
+      "CHANGING": "Увага! Весь прогрес подальших кроків буде втрачено",
+      "CHANGING_MODAL": "Весь прогрес подальших кроків буде втрачено",
+      "WARNING": "Увага",
+      "CONSOLE": "Консоль",
+      "RACCOON": "Єнот",
+      "PANDEMIC_HERO": "Герой пандемії"
+    },
+    "TASK_DESCRIPTION": {
+      "TITLE": "Опис сцени",
+      "MESSAGE": "Цей текст буде використано для опису вашої сцени."
+    },
+    "INITIAL_CODE": {
+      "TITLE": "Ініціалізаційний код",
+      "GENERATE": "Згенерувати"
+    },
+    "TEST_LAUNCH": {
+      "TITLE": "Try it"
+    },
+    "SAVE": {
+      "TITLE": "Збереження коду",
+      "SAVE_FILE": "Зберегти як Yaml файл",
+      "COPY": "Скопіювати код",
+      "COPIED": "Конфігураційний код скопійовано",
+      "SEND_TEXT": "Якщо в тебе вийшов цікавий рівень, скачай файл із кодом і надішли його на <a class=\"i18n-link\" href=\"mailto:kiddo@dataart.com\">kiddo@dataart.com</a>. Якщо наші модератори так само високо його оцінять, він з'явиться на сайті. А якщо в тебе є свій сайт, куди ти <a class=\"i18n-link\" href=\"//kiddo.academy/embed-code\" target=\"_blank\">вбудуєш</a>  плеєр, ти можеш використовувати його для конфігурації рівня."
+    }
+  }
+}
