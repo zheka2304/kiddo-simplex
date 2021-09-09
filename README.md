@@ -11,5 +11,5 @@ npm run build:tasks
 Build & run docker image:
 ```
 docker build . --tag kiddo-nginx
-docker run kiddo-nginx -p 80:80
+docker run -p 80:80 kiddo-nginx
 ```
